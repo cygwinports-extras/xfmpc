@@ -1,0 +1,82 @@
+xfmpc
+------------------------------------------
+A graphical GTK+ MPD client focusing on low footprint.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libgdk_pixbuf2.0_0-2.14.7-2
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
+  libmpd0-0.17.0-1
+  libpango1.0_0-1.22.4-1
+  libxfce4util4-4.5.99.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.4-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+  xfce4-dev-tools-4.5.99.1-1
+
+Canonical website:
+  http://goodies.xfce.org/projects/applications/xfmpc
+
+Canonical download:
+  http://goodies.xfce.org/releases/xfmpc/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xfmpc-0.0.7-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xfmpc-0.0.7-X.cygport all
+
+This will create:
+  /usr/src/xfmpc-0.0.7-X-src.tar.bz2
+  /usr/src/xfmpc-0.0.7-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/xfmpc.exe
+  /usr/share/applications/xfmpc.desktop
+  /usr/share/doc/xfmpc-0.0.7/AUTHORS
+  /usr/share/doc/xfmpc-0.0.7/COPYING
+  /usr/share/doc/xfmpc-0.0.7/ChangeLog
+  /usr/share/doc/xfmpc-0.0.7/INSTALL
+  /usr/share/doc/xfmpc-0.0.7/NEWS
+  /usr/share/doc/xfmpc-0.0.7/README
+  /usr/share/doc/xfmpc-0.0.7/THANKS
+  /usr/share/locale/ar/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/da/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/de/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/fi/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/fr/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/gl/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/id/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/ja/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/nl/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/uk/LC_MESSAGES/xfmpc.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.0.7-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

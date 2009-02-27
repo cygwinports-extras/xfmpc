@@ -1,0 +1,6 @@
+inherit xfce4
+
+DESCRIPTION="Xfce client for the Music Player Daemon"
+HOMEPAGE="http://goodies.xfce.org/projects/applications/xfmpc"
+SRC_URI="http://goodies.xfce.org/releases/xfmpc/${P}.tar.bz2"
+PATCH_URI="0.0.7-configure.patch"

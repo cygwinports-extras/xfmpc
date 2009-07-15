@@ -3,13 +3,15 @@ xfmpc
 A graphical GTK+ MPD client focusing on low footprint.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libgdk_pixbuf2.0_0-2.14.7-2
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-2
-  libmpd0-0.17.0-1
-  libpango1.0_0-1.22.4-1
-  libxfce4util4-4.5.99.1-1
+  cygwin-1.7.0-51
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libmpd1-0.18.0-1
+  libpango1.0_0-1.24.2-1
+  libxfce4util4-4.6.1-1
+  libxfcegui4_4-4.6.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -50,24 +52,31 @@ Files included in the binary package:
 
   /usr/bin/xfmpc.exe
   /usr/share/applications/xfmpc.desktop
-  /usr/share/doc/xfmpc-0.0.7/AUTHORS
-  /usr/share/doc/xfmpc-0.0.7/COPYING
-  /usr/share/doc/xfmpc-0.0.7/ChangeLog
-  /usr/share/doc/xfmpc-0.0.7/INSTALL
-  /usr/share/doc/xfmpc-0.0.7/NEWS
-  /usr/share/doc/xfmpc-0.0.7/README
-  /usr/share/doc/xfmpc-0.0.7/THANKS
+  /usr/share/doc/xfmpc/AUTHORS
+  /usr/share/doc/xfmpc/COPYING
+  /usr/share/doc/xfmpc/ChangeLog
+  /usr/share/doc/xfmpc/NEWS
+  /usr/share/doc/xfmpc/README
+  /usr/share/doc/xfmpc/THANKS
   /usr/share/locale/ar/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/ca/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/cs/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/da/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/de/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/en_GB/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/es/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/eu/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/fi/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/fr/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/gl/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/id/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/it/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/ja/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/nl/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/pt/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/sv/LC_MESSAGES/xfmpc.mo
+  /usr/share/locale/tr/LC_MESSAGES/xfmpc.mo
   /usr/share/locale/uk/LC_MESSAGES/xfmpc.mo
 
 ------------------

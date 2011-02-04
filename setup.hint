@@ -1,4 +1,4 @@
 category: Audio Xfce
-requires: libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libmpd1 libpango1.0_0 libxfce4util4 libxfcegui4_4
+requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libmpd1 libpango1.0_0 libxfce4util4 libxfce4ui1_0
 sdesc: "Xfce client for the Music Player Daemon"
 ldesc: "A graphical GTK+ MPD client focusing on low footprint."

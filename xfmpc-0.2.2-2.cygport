@@ -2,4 +2,3 @@ inherit xfce4
 
 DESCRIPTION="Xfce client for the Music Player Daemon"
 HOMEPAGE="http://goodies.xfce.org/projects/applications/xfmpc"
-SRC_URI="http://archive.xfce.org/src/apps/${PN}/${PV_MAJ_MIN}/${P}.tar.bz2"

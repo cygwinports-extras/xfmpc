@@ -1,0 +1,9 @@
+inherit xfce4
+
+NAME="xfmpc"
+VERSION=0.2.2
+RELEASE=2
+HOMEPAGE="http://goodies.xfce.org/projects/applications/xfmpc"
+CATEGORY="Audio"
+SUMMARY="Xfce client for the Music Player Daemon"
+DESCRIPTION="A graphical GTK+ MPD client focusing on low footprint."

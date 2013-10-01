@@ -1,4 +1,0 @@
-inherit xfce4
-
-DESCRIPTION="Xfce client for the Music Player Daemon"
-HOMEPAGE="http://goodies.xfce.org/projects/applications/xfmpc"
